@@ -25,15 +25,18 @@ SQL, administración, seguridad, monitoreo, respaldo y optimización.
 
 ## Estructura del proyecto
 
-```text
-bd_dvdrental/
+README.md
 │
 ├── scripts/
 │   ├── 01_inspeccion_inicial.sql
-│   └── ...
+│   ├── 03_seguridad_roles.sql
+│   ├── consultas_monitoreo.sql
+│   ├── afinacion_parametros.sql
+│   ├── respaldo_completo.sh
+│   └── restaurar_respaldo.sh
 │
 ├── diagramas/
 │
-├── backups/
-│
-└── README.md
+└── backups/
+    ├── dvdrental.tar
+    └── dvdrental.zip
